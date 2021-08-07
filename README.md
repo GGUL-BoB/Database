@@ -1,5 +1,4 @@
-# Database
-GGUL-DB
+# Honey-DB
 
 ID : ggulbob<br>
 PW : ggulbobpasswd<br>
