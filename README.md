@@ -4,8 +4,11 @@ ID : ggulbob<br>
 PW : ggulbobpasswd<br>
 DB : bobrytime<br>
 
-#### > init.sh
-#### > run.sh
+### Usage
+#### > ./init.sh
+#### > ./run.sh
+#### > cron
 #### > mysql -u ggulbob -p
 #### > [ggulbobpasswd]
+#### > exit
 #### > clean.sh
