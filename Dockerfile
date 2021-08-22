@@ -6,7 +6,7 @@ ADD ./mysql-init-files /docker-entrypoint-initdb.d
 ADD ./backup.sh /root/backup.sh
 RUN chmod 755 /root/backup.sh
 RUN apt update && apt install cron -y
-RUN { crontab -l & echo '*/1 * * * * /root/backup.sh'; } | crontab -
+RUN { crontab -l & echo '* */1 * * * /root/backup.sh'; } | crontab -
 
 EXPOSE 3306
 
